@@ -1,0 +1,64 @@
+#flagdiv{
+    background-image: url(images/flag.jpg);
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 890px;
+    text-align: center;
+    font-size: 46px;
+
+}
+#whykorea{
+    font-size: 46px;
+    text-align: center;
+}
+h2{
+    font-size:24px;
+}
+#traditionplaces{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    gap: 4%;
+
+}
+#traditionplaces img{
+width: 400px;
+height: 400px;
+}
+#foods{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 4%;
+}
+#foods img{
+    width: 550px;
+    height: 450px;   
+}
+#k-pop{
+    background-image: url(images/kpopsign.png);
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    height: 650px;
+    text-align:center; 
+    font-size: 24px;
+    color: white;
+}
+#k-popgroups{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);  
+    gap: 4%; 
+    margin-bottom: 90px;
+}
+#k-popgroups img{
+    width: 550px;
+    height: 800px; 
+}
+body{
+    background-color:rgb(224, 220, 224);
+}
+#footer{
+    background-color: black;
+    color: white;
+    height: 170px;
+}
